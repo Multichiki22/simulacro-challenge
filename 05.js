@@ -14,7 +14,11 @@ function pluck(array, propiedad) {
   // Pista: es una buena oportunidad para usar map.
 
   // Tu código acá:
-
+  var salida = []
+  for (let i = 0;i<array.length;i++){
+    salida.push(array[i][propiedad])
+  }
+  return salida
 }
 
 // No modifiques nada debajo de esta linea //
